@@ -1,4 +1,6 @@
-% InClass1: some simple excerises to get started with MATLAB. Please complete by
+% AW: Looks good. 1/1. see comment below. 
+%
+%InClass1: some simple excerises to get started with MATLAB. Please complete by
 % the second class. Answer questions in comments and return assignment via
 % github
 %% numbers vs strings
@@ -172,7 +174,7 @@ a==b
 
 ans =
 
-  1×3 logical array
+  1Ã—3 logical array
 
    0   1   0
 % This operation yields a logical array in which the first element of a is
@@ -206,7 +208,7 @@ a==b
 
 ans =
 
-  1×3 logical array
+  1Ã—3 logical array
 
    0   1   0
 % This operation does not give an error because MATLAB interprets this as
@@ -295,6 +297,8 @@ x =
 ans =
 
      2     4     6     8    10    12    14    16    18    20
+
+%AW: this is fine. 2*oneToTen would be more succinct. 
 
 % 2. odd numbers from one to nineteen
 
